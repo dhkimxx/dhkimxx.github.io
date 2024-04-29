@@ -84,7 +84,7 @@ content:
       - layout: left
         title: Tech University of Korea
         caption: 2018 - 2024
-        sub_title: Embedded Systems
+        sub_title: Bachelor of Science in Embedded System
         quote: # 한국공학대학교(Tech University of Korea)는 기술 인력 양성을 위해 대한민국 산업통상자원부가 출연하여 설립한 경기도 시흥시의 사립 대학이다. 영문 약칭은 TUKOREA이며, 국문 약칭으로 한국공대가 쓰인다. 산업통상자원부가 설립한 대학으로서 연구 및 실험실습의 비중이 큰 편이다.
         description: | # this will include new lines to allow paragraphs
           - 한국공학대학교에서 4년간 임베디드시스템을 공부해오면서 다양한 프로젝트에 참여하여 팀원들과의 협업을 통해 커뮤니케이션 능력 및 일정 관리 능력을 향상시킬 수 있었습니다.
