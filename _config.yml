@@ -1,39 +1,39 @@
 # Site
-repository: sproogen/resume-theme
+repository: dhkimxx/dhkimxx.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: 김도형 | Dohyeong Kim
+title: Junior Full Stack Developer
+email: dhkimxx@naver.com
+
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username:  dhkimxx
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
+linkedin_username: 도형-김-8b3526276
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+- title: blog
+  icon: fas fa-blog
+  url: https://blog.naver.com/dhkimxx
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -46,71 +46,101 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile-kdh.jpg
+about_profile_image: images/profile-kdh.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  안녕하세요. 주니어 풀스택 개발자로 활동하고 있는 김도형입니다. 웹 어플리케이션 기반의 사물인터넷, 대시보드, 리모트랩, 개발자 커뮤니티 등 다양한 분야의 서비스를 다루어 본 경험이 있으며, 
+  개발자 커뮤니티 서비스 개발을 경험하면서 마이크로 서비스 아키텍처 기반의 백엔드 어플리케이션 개발에 관심을 갖고 있습니다.
+  <br/>
+  <br/>
+  주요기술: <mark>Spring boot</mark>  <mark>React</mark> <mark>Docker</mark> <mark>MySQL</mark>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: ThunderSoft Korea
+        link: https://kr.thundersoft.com/
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: Web Application developer
+        caption: 2023.09 ~ 2024.01 (Internship), 2024.01 ~ Present
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+           Focus AI Camera Dashboard, Samsung Exynos Society ...
+
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          - IoT Dashboard for Monitoring AI Camera Feed and Device Status 
+            -  Development Web based camera feed streaming system using AWS KVS
+            -  Development Backend server for collecting data pipeline of camera device status using AWS IoT
+
+          - Samsung Exynos Society (Community for Developers)
+            - Transition from a monolithic architecture in the existing legacy system to a modern microservices architecture
+            - Development of a Markdown editor for developer users of the community forum
+
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: Tech University of Korea
+        caption: 2018 - 2024
+        sub_title: Embedded Systems
+        quote: # 한국공학대학교(Tech University of Korea)는 기술 인력 양성을 위해 대한민국 산업통상자원부가 출연하여 설립한 경기도 시흥시의 사립 대학이다. 영문 약칭은 TUKOREA이며, 국문 약칭으로 한국공대가 쓰인다. 산업통상자원부가 설립한 대학으로서 연구 및 실험실습의 비중이 큰 편이다.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          - 한국공학대학교에서 4년간 임베디드시스템을 공부해오면서 다양한 프로젝트에 참여하여 팀원들과의 협업을 통해 커뮤니케이션 능력 및 일정 관리 능력을 향상시킬 수 있었습니다.
+          <br/><br/>
+          - 낙상사고 예방을 위한 사물인터넷 시스템을 직접 설계 및 구축하는 졸업작품 프로젝트를 통해, RestAPI 및 MQTT 등 다양한 데이터 전송 기술을 다루어 보면서 웹 어플리케이션 개발자 로드맵을 시작하는 전환점이 될 수 있었습니다.
+          <br/><br/>
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
-  - title: A Little More About Me
+
+  - title: Projects of Study  # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left  # top-middle
+        title: Smart Lamp for Fall Accident Prevention
+        link: https://github.com/dhkimxx/smartLamp
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: https://github.com/dhkimxx/smartLamp\
+        description: | 
+          - Development of IoT System Using MQTT and HTTP protocol
+          - Developed a smart lamp device using ESP8266, PWM driver, PIR sensor, and HC-SR04(Ultrasonic) sensor. 
+          - Implement data communicative application through HTTP and MQTT protocols for a mobile application using the Flutter framework. 
+          - Developing a backend server based on the Spring framework, enabling user registration, retrieval, modification, and deletion of device information. 
+
+    
+      - layout: left
+        title: Smart Home IoT Project 
+        description: | 
+          - Implement smart home system using ESP32, st7789 display, DHT22 sensor, PIR sensor, and lux sensor. 
+          - Developing monitoring environment with Node-RED, influxdb, and MQTT broker on an AWS EC2 Linux instance, along with service logic implementation. 
+          - Enhancement Internet of Things security through asymmetric encryption methods. 
+
+
+      - layout: left
+        title: 2023 Techeer Ideathon Project
+        description: | 
+          - Developed a web application providing health club information and a community service based on user location. 
+          - Backend server development utilizing the Spring framework and MySQL database. 
+
+      
+      - layout: left
+        title: Data Analysis Projects
+        description: | 
+          - Developed a CNN-based VGGNet deep learning model for diagnosing ocular diseases based on images of dog and cat eyeballs. 
+          - Developed a machine learning model using the Sklearn library to predict parking demand based on data such as apartment complex rent, security deposit, public transportation facilities, and parking area. 
+
+
+
+
+  - title: Thank you for taking the time to read my resume. 
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+     
+      ![cycling](/images/cycle.jpeg)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
