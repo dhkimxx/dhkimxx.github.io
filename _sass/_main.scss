@@ -1,7 +1,15 @@
+// body {
+// 	background: #008082;
+// 	font-family: sans-serif, serif, monospace;
+// 	font-size: 13px;
+// }
+
 body {
-	background: #008082;
-	font-family: sans-serif, serif, monospace;
-	font-size: 13px;
+    background-image: url('/assets/img/noise.gif');
+    background-size: cover; /* GIF 크기를 화면 전체로 확장 */
+    background-repeat: no-repeat; /* GIF 반복 안 함 */
+    background-attachment: fixed; /* GIF 고정 (스크롤 무시) */
+    background-position: center; /* 화면 중앙에 GIF 배치 */
 }
 
 .wrapper, .content {
